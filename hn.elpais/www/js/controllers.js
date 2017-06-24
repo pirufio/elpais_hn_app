@@ -216,6 +216,7 @@ angular.module('starter.controllers', [])
 	});
 	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
 	.then(function(response){
+        $scope.hideLoading();
 		$scope.loadDetail = true;
 		var tmp = document.createElement('div');
 		tmp.innerHTML = response.data.content.rendered;
@@ -236,7 +237,7 @@ angular.module('starter.controllers', [])
 		$scope.data = response.data;
 		$scope.data.time = new Date($scope.data.date).getTime();
 		$scope.load = function(){
-			$http.get(wordpress_url+'/wp-json/wp/v2/posts?categories='+$scope.data.categories[0] ,{
+			$http.get(wordpress_url+'/wp-json/wp/v2/posts?categories='+$scope.data.categories[0].cat_ID ,{
 				params:{"exclude":$scope.posts,"page":$scope.page,"per_page":4}
 			}).then(function(response){
 				if(response.data.length == 0) {
@@ -357,7 +358,7 @@ angular.module('starter.controllers', [])
 	if(angular.isUndefined($localStorage.bookmark)) $localStorage.bookmark = {};
 	$scope.$sce = $sce;
 	$scope.posts = $stateParams.id;
-	$scope.showLoading("Loading...");
+	$scope.showLoading("Cargando....");
 	if(angular.isDefined($localStorage.bookmark[$scope.posts])) $scope.bookmarked = true;
 	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
 	.then(function(response){
@@ -437,7 +438,7 @@ angular.module('starter.controllers', [])
 	$scope.data = {};
 	$scope.AddAComment = function(){
 		if(angular.isDefined($localStorage.login)){
-			$scope.showLoading("Loading...");
+			$scope.showLoading("Cargando....");
 			$scope.checkToken().then(function(response){
 				$http({
 					method: 'POST',
@@ -500,7 +501,7 @@ angular.module('starter.controllers', [])
 		$scope.refreshing = true;
 		$scope.load(true);
 	};
-	$scope.showLoading("Loading...");
+	$scope.showLoading("Cargando....");
 	$http.get(wordpress_url+'/wp-json/wp/v2/categories/'+$stateParams.id)
 	.then(function(response){
 		$scope.nameCategory = response.data;
@@ -585,7 +586,7 @@ angular.module('starter.controllers', [])
 		};
 		Camera.getPicture(options).then(function(imageData) {
 			$scope.avatar = "data:image/jpeg;base64,"+imageData;
-			$scope.showLoading("Loading...");
+			$scope.showLoading("Cargando....");
 			$scope.checkToken().then(function(response){
 				$http.post(wordpress_url+'/wp-json/mobiconnector/user/update_profile',{
 					user_profile_picture: $scope.avatar
@@ -649,7 +650,7 @@ angular.module('starter.controllers', [])
 	if($stateParams.type == "photo") setTimeout(function(){ $ionicTabsDelegate.select(1); },10);
 	$scope.$sce = $sce;
 	if($localStorage.bookmark && angular.isObject($localStorage.bookmark)){
-		$scope.showLoading("Loading...");
+		$scope.showLoading("Cargando....");
 		$scope.include = [];
 		angular.forEach($localStorage.bookmark, function(value, key){
 			$scope.include.push(key);
@@ -676,7 +677,7 @@ angular.module('starter.controllers', [])
 	$scope.dataLogin = $stateParams;
 	$scope.data = {};
 	$scope.login = function(){
-		$scope.showLoading("Loading...");
+		$scope.showLoading("Cargando....");
 		$http.post(wordpress_url+'/wp-json/jwt-auth/v1/token', {
 			username: $scope.data.username,
 			password: $scope.data.password
@@ -713,7 +714,7 @@ angular.module('starter.controllers', [])
 .controller('ForgotCtrl', function($scope, $http, $state){
 	$scope.data = {};
 	$scope.reset = function(){
-		$scope.showLoading("Loading...");
+		$scope.showLoading("Cargando....");
 		$http.post(wordpress_url+'/wp-json/mobiconnector/user/forgot_password',{
 			username: $scope.data.email,
 		},{
@@ -761,7 +762,7 @@ angular.module('starter.controllers', [])
 			if($scope.data.password != $scope.data.repass){
 				window.plugins.toast.showShortBottom('Re-password do not match');
 			} else {
-				$scope.showLoading("Loading...");
+				$scope.showLoading("Cargando....");
 				$http.post(wordpress_url+'/wp-json/mobiconnector/user/register',{
 					username: $scope.data.username,
 					email: $scope.data.email,

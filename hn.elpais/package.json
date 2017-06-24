@@ -24,7 +24,7 @@
         }
     },
     "dependencies": {
-        "cordova-android": "~6.2.3",
+        "cordova-android": "^6.2.3",
         "cordova-plugin-admob-free": "~0.8.0",
         "cordova-plugin-camera": "https://github.com/apache/cordova-plugin-camera.git",
         "cordova-plugin-console": "~1.0.3",

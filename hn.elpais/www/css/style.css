@@ -1,3 +1,66 @@
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/PlayfairDisplay-Regular.eot');
+	src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/PlayfairDisplay-Regular.woff') format('woff'),
+	url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ITC Franklin Gothic Std';
+	src: url('fonts/ITCFranklinGothicStd-Med.eot');
+	src: url('fonts/ITCFranklinGothicStd-Med.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ITCFranklinGothicStd-Med.woff') format('woff'),
+	url('fonts/ITCFranklinGothicStd-Med.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ITC Franklin Gothic Std Book';
+	src: url('fonts/ITCFranklinGothicStd-Book.eot');
+	src: url('fonts/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ITCFranklinGothicStd-Book.woff') format('woff'),
+	url('fonts/ITCFranklinGothicStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ITC Franklin Gothic Std';
+	src: url('fonts/ITCFranklinGothicStd-Hvy.eot');
+	src: url('fonts/ITCFranklinGothicStd-Hvy.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ITCFranklinGothicStd-Hvy.woff') format('woff'),
+	url('fonts/ITCFranklinGothicStd-Hvy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family: "IPlayfair Display", serif;
+	color: #000;
+}
+
+b.title-briefs{
+	display: block;
+	color: #000;
+	text-decoration: none;
+	font-family: "'Playfair Display", serif;
+	font-size: 46px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+detail p{
+	font-family: "ITC Franklin Gothic Std", serif;
+	margin: 24px 0px;
+	font-size: 16px;
+	color: #000;
+	line-height: 22.8571px;
+}
+
 .warning-offline{
 	position:fixed;
 	bottom:0;
@@ -12,7 +75,6 @@
 	font-size:145%!important
 }
 .title .logo{
-	font-family:"'Playfair Display', Thanhoa";
 	line-height:43px
 }
 .popup-choose .popup{
@@ -51,12 +113,7 @@
 }
 .popup-confirm .popup-head{border:none}
 .popup-confirm .popup-buttons{display:block}
-@font-face {
-	font-family: "Thanhoa";
-	src: url("Thanhoa.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
+
 .popup-confirm .popup-buttons .button{
 	font-family:Roboto Medium;
 	color:#029789;
@@ -76,10 +133,11 @@
 	bottom:0;
     left:0;
     color:#fff;
+	font-weight: bold;
     background:rgba(0,0,0,0.6);
 	background-size:100% 100%;
     padding:10px;
-    width:100%
+    width:100%;
 }
 .news-video i.icon{
 	font-size:300%;
@@ -124,7 +182,7 @@
 .line-height-add{line-height:1.4;}
 
 a{text-decoration:none;}
-.text-type{font-family:Roboto;font-style:Regular;font-size:21px}
+.text-type{font-family:"Playfair Display";font-style:normal;font-size:21px}
 .header{background:#000;border:0px;display:flex;align-items:center;}
 .header .button{color:#fff}
 .ion-android-arrow-back{color:#fff!important}
@@ -135,8 +193,15 @@ a{text-decoration:none;}
 .no-padding{padding:0}
 .img{width:100%;}
 .news{background:#fff;border-radius:3px;border-bottom:#ccc solid 2px;}
-.title-news{color:#000;text-decoration:none;font-family:Roboto;}
-.info{color:#00a85d;font-size:10px;}
+.title-news{
+	color:#000;text-decoration:none;
+	font-family:"Playfair Display";
+	font-size: 16px;
+}
+.info{
+	color:#00a85d;
+	font-size:16px;
+}
 span.info.col-offset-10{margin:0}
 .title-list{
 	background:#b0282a;
@@ -158,9 +223,9 @@ span.info.col-offset-10{margin:0}
 	font-size:25px;
 	color:#000;
 	text-decoration:none;
-	font-family:Roboto;
+	font-family:"Playfair Display";
 }
-.briefs{font-family:Roboto Slab;color:#818181;}
+.briefs{font-family:"Playfair Display";color:#818181;}
 .briefs *{
 	max-width:100%!important;
 	height:auto!important
@@ -181,9 +246,9 @@ span.info.col-offset-10{margin:0}
 .back-button-2{color:#e65f63;width:30px;}
 .item{border:0px;}
 .flexx{display:flex;align-items:center;}
-.text-setting{font-family:Roboto; font-size:19px;white-space:normal}
-.title-setting{font-family:Roboto Medium;font-size:14px;color:#00a85d;}
-.add{font-family:Roboto;font-size:12px;color:#737578}
+.text-setting{font-family:"Playfair Display"; font-size:19px;white-space:normal}
+.title-setting{font-family:"Playfair Display" Medium;font-size:14px;color:#00a85d;}
+.add{font-family:"Playfair Display";font-size:12px;color:#737578}
 .login-email{
 	background:#00a85d;color:#fff;font-family:Helvetica Medium;font-size:13px;min-height:47px;
 	border-radius:3px;

@@ -31,6 +31,12 @@ p iframe{
 	max-width:100%;
 	height:auto
 }
+
+.next-story-title{
+	color:#a81113;
+	font-size:24px
+}
+
 .next-story{
 	border:1px solid #ddd;
 	overflow:hidden
