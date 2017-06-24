@@ -1,7 +1,7 @@
 .menu-list .item{color:#6c6c5b}
 .menu-list .item .icon{font-size:22px}
 .menu-list .item.selected{
-	background:#b0282a;
+	background:#000;
 	color:#fff
 }
 .menu-list .icon{
@@ -17,7 +17,7 @@
     bottom:0;
     width:150px;
     z-index:2;
-    background:#b0282a
+    background:#000
 }
 .platform-ios .menu-child{top:63px}
 .menu-child .item{

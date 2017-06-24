@@ -1,8 +1,9 @@
 <ion-view title="">
+    HOLA
 <link href="css/dailynews.css" rel="stylesheet" type="text/css" />
 <ion-nav-buttons side="right">
 	<button ng-click="share()" class="button-icon bar-button ion-android-share-alt"></button>
-	<button ui-sref="app.comment({id:posts})" class="button-icon bar-button icon-chat"></button>
+	<!--button ui-sref="app.comment({id:posts})" class="button-icon bar-button icon-chat"></button-->
 	<button ng-click="openPopover($event)" class="back-button-news bar-button icon-menu"></button>
 </ion-nav-buttons>
 <ion-content ng-show="data.time" class="news-content" on-drag="onDrag($event)">
@@ -14,7 +15,7 @@
 			<detail class="briefs line-height-add" ng-class="settings.text" content="data.content.rendered"></detail>
 		</div>
 	</div>
-	<center style="color:#191919;">
+	<!--center style="color:#191919;">
 		{{'thisArticle' | translate}} <span style="color:#b0282a">{{data.mobiconnector_total_comments.approved}}</span> {{'comments' | translate}}
 	</center>
 	<div class="row no-padding" style="border-bottom:#cacaca solid 2px;margin-bottom:5px;">
@@ -23,7 +24,7 @@
 				<span>{{'addComment' | translate}}</span>
 			</button>
 		</div>
-	</div>
+	</div>-->
 	<div ng-hide="incategory.length <1" class="row no-padding">
 		<div class="col padding" style="padding-bottom:0px">
 			<b style="color:#a81113;font-size:12px">{{'nextStory' | translate}}</b>

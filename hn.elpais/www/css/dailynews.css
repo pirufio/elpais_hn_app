@@ -2,7 +2,7 @@
 	color:#fff;
 	padding:0 8px
 }
-.back-button-news.bar-button{color:rgb(224,212,208)}
+.back-button-news.bar-button{color:#fff}
 .button-icon.bar-button:before{font-size: 30px;}
 .info-news{font-family:Roboto;color:#818181;}
 .body-news{overflow-y:scroll;}

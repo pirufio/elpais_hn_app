@@ -11,16 +11,16 @@ if (/(android)/i.test(navigator.userAgent)) {
   }
 }
 
-document.addEventListener('deviceready', function() {
-  admob.banner.config({
-    id: admobid.banner,
-    autoShow: true,
-  });
-  admob.banner.prepare();
+//document.addEventListener('deviceready', function() {
+  //admob.banner.config({
+  //  id: admobid.banner,
+  //  autoShow: true,
+  //});
+  //admob.banner.prepare();
 
-  admob.interstitial.config({
-    id: admobid.interstitial,
-    autoShow: true,
-  });
-  admob.interstitial.prepare();
-}, false);
+  //admob.interstitial.config({
+  //  id: admobid.interstitial,
+  //  autoShow: true,
+  //});
+  //admob.interstitial.prepare();
+//}, false);

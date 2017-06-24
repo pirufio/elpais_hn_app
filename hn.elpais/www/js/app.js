@@ -285,22 +285,22 @@ angular.module('starter', ['ionic', 'starter.services', 'starter.controllers', '
 			return $filter('date')(time, date_format);
 		}
 		else if (time_ago<perMinute){
-			return Math.round(time_ago/1000) + ' seconds ago';
+			return Math.round(time_ago/1000) + ' segundos';
 		}
 		else if(time_ago<perHour){
-			return Math.round(time_ago/perMinute) + ' minutes ago';
+			return Math.round(time_ago/perMinute) + ' minutos';
 		}
 		else if(time_ago<perDay){
-			return Math.round(time_ago/perHour) + ' hours ago';
+			return Math.round(time_ago/perHour) + ' horas';
 		}
 		else if(time_ago<perMonth){
-			return Math.round(time_ago/perDay) + ' days ago';
+		    return Math.round(time_ago / perDay) + ' días';
 		}
 		else if(time_ago<perYear){
-			return Math.round(time_ago/perMonth) + ' months ago';
+			return Math.round(time_ago/perMonth) + ' meses';
 		}
 		else{
-			return Math.round(time_ago/perYear) + ' years ago';
+		    return Math.round(time_ago / perYear) + ' años';
 		}
 	}
 })

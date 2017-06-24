@@ -205,7 +205,7 @@ angular.module('starter.controllers', [])
 	$scope.incategory = [];
 	$scope.page = 1;
 	if(angular.isDefined($localStorage.bookmark[$scope.posts])) $scope.bookmarked = true;
-	$scope.showLoading("Loading...");
+	$scope.showLoading("Cargando...");
 	$scope.$on('$stateChangeStart', function(event, toState, toParams){
 		var iframe = document.querySelectorAll('iframe');
 		for(var i=0; i < iframe.length; i++){
@@ -250,8 +250,8 @@ angular.module('starter.controllers', [])
 				$scope.page = $scope.page +1;
 			});
 		};
-		$http.get(wordpress_url+'/wp-json/mobiconnector/post/counter_view?post_id='+$scope.posts)
-		.then(function(){ $scope.hideLoading(); });
+		//$http.get(wordpress_url+'/wp-json/mobiconnector/post/counter_view?post_id='+$scope.posts)
+		//.then(function(){ $scope.hideLoading(); });
 	});
 	$scope.onDrag = function(e){
 		switch(e.gesture.direction){
