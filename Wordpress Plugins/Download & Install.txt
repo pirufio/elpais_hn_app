@@ -1,0 +1,9 @@
+1. Download all plugins from: http://taydomailer.com/mobileapp/wp-plugins/
+2. Install all by order
+- wp-user-avatar
+- wpcustom-category-image
+- post-views-counter
+- rest-api
+- jwt-authentication-for-wp-rest-api
+- mobiconnector
+3. Please read our document for config jwt-authentication-for-wp-rest-api plugins
