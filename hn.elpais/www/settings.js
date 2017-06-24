@@ -6,8 +6,8 @@ var wordpress_url = "http://www.elpais.hn";
 //Posts per page
 var wordpress_per_page = 10;
 //For push notification with OneSignal
-var onesignal_app_id = "b315f4b1-83ea-4d2a-bc34-ca3ba56cb23a";
-var onesignal_project_number = "190957962003";
+var onesignal_app_id = "968e916f-3134-4521-bfc7-02a2d344b864";
+var onesignal_project_number = "321483762923";
 //For RTL Language
 var rtl_language = false;
 //Open link in Detail
