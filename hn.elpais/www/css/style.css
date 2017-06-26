@@ -56,6 +56,7 @@ b.title-briefs{
 detail p{
 	font-family: "ITC Franklin Gothic Std", serif;
 	margin: 24px 0px;
+	/*font-size: 16px;*/
 	color: #000;
 	line-height: 22.8571px;
 }
@@ -65,7 +66,7 @@ detail p{
 	bottom:0;
 	width:100%;
 	line-height:44px;
-	background:#a02329;
+	background:#00a85d;
 	z-index:10
 }
 .slider{direction:ltr}
@@ -76,6 +77,9 @@ detail p{
 .title .logo{
 	line-height:43px
 }
+    .title .logo img {
+        margin-top: 3px;
+    }
 .popup-choose .popup{
 	background-color:#efeeec!important;
 	border-radius:4px
@@ -222,12 +226,9 @@ span.info.col-offset-10{margin:0}
 	font-size:25px;
 	color:#000;
 	text-decoration:none;
-	font-family: "Playfair Display", serif;
+	font-family:"Playfair Display";
 }
-.briefs{
-	font-family: "Playfair Display", serif;
-	color:#818181;
-}
+.briefs{font-family:"Playfair Display";color:#818181;}
 .briefs *{
 	max-width:100%!important;
 	height:auto!important
@@ -249,7 +250,7 @@ span.info.col-offset-10{margin:0}
 .item{border:0px;}
 .flexx{display:flex;align-items:center;}
 .text-setting{font-family:"Playfair Display"; font-size:19px;white-space:normal}
-.title-setting{font-family:"Playfair Display" Medium;font-size:14px;color:#00a85d;}
+.title-setting{font-family:"Playfair Display";font-size:14px;color:#00a85d;}
 .add{font-family:"Playfair Display";font-size:12px;color:#737578}
 .login-email{
 	background:#00a85d;color:#fff;font-family:Helvetica Medium;font-size:13px;min-height:47px;

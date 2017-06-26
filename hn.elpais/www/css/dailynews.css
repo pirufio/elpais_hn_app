@@ -8,7 +8,7 @@
 .body-news{overflow-y:scroll;}
 .popover-menu{
 	height:auto;
-	background:#a02329;
+	background:#00a85d;
 	border-radius:0px!important
 }
 .popover-menu .popover-item{
@@ -18,7 +18,7 @@
 .popover-menu .popover-arrow{display:none!important}
 .platform-android .popover .item {
 	border-color: #fafafa;
-	color:#fff;background-color:#a02329;
+	color:#fff;background-color:#00a85d;
 }
 .platform-ios .popover{ margin-top:-32px }
 .light.icon-bookmarks:before{margin:0px;}
@@ -33,7 +33,7 @@ p iframe{
 }
 
 .next-story-title{
-	color:#a81113;
+	color:#00a85d;
 	font-size:24px
 }
 
@@ -46,7 +46,7 @@ p iframe{
 	width:100%;
 	margin:0 auto
 }
-.bookmarked{color:#f00}
+.bookmarked{color:#004f2c}
 .news-content cite, em, i{
     font-style: italic;
 }

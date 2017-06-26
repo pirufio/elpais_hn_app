@@ -74,7 +74,7 @@ angular.module('starter.controllers', [])
 	$scope.latest = [];
 	$scope.page = 1;
 	$scope.load = function(isRefreshing){
-		$http.get(wordpress_url+'/wp-json/wp/v2/posts' ,{
+	    $http.get(wordpress_url + '/wp-json/wp/v2/posts?tags=50', {
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
 		}).then(function(response){
 			if(isRefreshing) {
@@ -291,7 +291,7 @@ angular.module('starter.controllers', [])
 	$scope.showPopupText = function() {
 		$scope.closePopover();
 		var popup = $ionicPopup.show({
-			title: 'Choose default text size for story pages',
+		    title: 'Seleccione el tamaño del texto',
 			templateUrl:'templates/popup/text.html',
 			cssClass: 'popup-choose',
 			scope: $scope
@@ -325,7 +325,7 @@ angular.module('starter.controllers', [])
 	$scope.photos = [];
 	$scope.page = 1;
 	$scope.load = function(isRefreshing){
-		$http.get(wordpress_url+'/wp-json/wp/v2/posts?filter[post_format]=post-format-image' ,{
+		$http.get(wordpress_url+'/wp-json/wp/v2/posts?filter[post_format]=post-format-gallery' ,{
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
 		}).then(function(response){
 			if(isRefreshing) {
@@ -549,7 +549,7 @@ angular.module('starter.controllers', [])
 	$scope.showPopupText = function() {
 		var popup = $ionicPopup.show({
 			scope: $scope,
-			title: 'Choose default text size for story pages',
+			title: 'Seleccione el tamaño del texto',
 			templateUrl:'templates/popup/text.html',
 			cssClass: 'popup-choose'
 		});

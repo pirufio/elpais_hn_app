@@ -1,5 +1,4 @@
 <ion-view title="">
-    HOLA
 <link href="css/dailynews.css" rel="stylesheet" type="text/css" />
 <ion-nav-buttons side="right">
 	<button ng-click="share()" class="button-icon bar-button ion-android-share-alt"></button>
@@ -11,7 +10,7 @@
 	<div class="row" style="margin-bottom:30px;">
 		<div class="col">
 			<b class="title-briefs line-height" ng-bind-html="data.title.rendered"></b>
-			<p class="info-news" style="margin-top:5px;">{{data.mobiconnector_author_name}}, {{data.time | timeAgo}}</p>
+			<p class="info-news" style="margin-top:5px;">{{data.mobiconnector_author_name}}, <a href="/#/app/category/{{data.categories[0].cat_ID}}" class="info"><b>{{data.categories[0].cat_name}}</b></a>, {{data.time | timeAgo}}</p>
 			<detail class="briefs line-height-add" ng-class="settings.text" content="data.content.rendered"></detail>
 		</div>
 	</div>

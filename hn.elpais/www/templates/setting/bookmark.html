@@ -16,12 +16,13 @@
 							<div class="col">
 								<span class="col-offset-10 info">{{item.time | timeAgo}}</span>
 							</div>
-							<div class="col">
+							<!--<div class="col">
 								<span class="info"><i class="icon-chat"></i> {{item.mobiconnector_total_comments.approved}} 
 								<span ng-if="item.mobiconnector_total_comments.approved <2">{{'comment' || translate}}</span>
 								<span ng-if="item.mobiconnector_total_comments.approved >1">{{'comments' || translate}}</span>
 								</span>
 							</div>
+                                -->
 						</div>		
 					</div>
 				</div>
@@ -30,7 +31,7 @@
 		<div ng-show="!news || count.length <1" class="padding text-center dark">{{'noBookmark' | translate}}</div>
 		</ion-content>
 	</ion-pane></ion-tab>
-	<ion-tab title="{{'photo' | translate}}"><ion-pane>
+	<!-- <ion-tab title="{{'photo' | translate}}"><ion-pane>
 		<ion-content>
 		<div class="row" ng-repeat="item in news | filter:{format:'image'} as count" style="margin-bottom:5px;" ng-if="!item.remove">
 			<div class="col no-padding">
@@ -48,5 +49,6 @@
 		<div ng-show="!news || count.length <1" class="padding text-center dark">{{'noBookmark' | translate}}</div>
 		</ion-content>
 	</ion-pane></ion-tab>
+        -->
 </ion-tabs>
 </ion-view>

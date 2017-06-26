@@ -6,7 +6,7 @@
 <ion-nav-buttons side="secondary">
 	<button ui-sref="app.settings" class="bar-sidemenu bar-button icon-settings"></button>
 </ion-nav-buttons>
-<ion-nav-title class="logo">{{'title' | translate}}</ion-nav-title>
+<ion-nav-title class="logo"><img src="img/logowhite.jpg" height="35px" /></ion-nav-title>
 <ion-tabs tabs-top class="tabs-news">
 	<ion-tab title="{{'latest' | translate}}">
 		<ion-pane ng-controller="LastestCtrl">
@@ -35,7 +35,7 @@
 			</ion-content>
 		</ion-pane>
 	</ion-tab>
-	<ion-tab title="{{'trending' | translate}}">
+	<!-- <ion-tab title="{{'latest' | translate}}">
 		<ion-pane ng-controller="TrendingCtrl">
 			<ion-content class="home-content">
 			<ion-refresher on-refresh="doRefresh()" spinner="none" pulling-icon="ion-refresh"></ion-refresher>
@@ -44,5 +44,6 @@
 			</ion-content>
 		</ion-pane>
 	</ion-tab>
+        -->
 </ion-tabs>
 </ion-view>

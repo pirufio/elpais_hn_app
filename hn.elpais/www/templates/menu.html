@@ -14,7 +14,7 @@
   <ion-side-menu side="{{menuDirection}}" class="menu menu-{{menuDirection}}">
     <ion-header-bar class="header row-center">
 		<button class="back-button bar-button ion-android-arrow-back" menu-toggle="{{menuDirection}}"></button>
-		<h1 class="title"><span class="logo">{{'title' | translate}}</span></h1>
+		<h1 class="title"><span class="logo"><img style="margin-top: 2px;" src="img/logowhite.jpg" height="20px" /></span></h1>
     </ion-header-bar>
     <ion-content scroll="false">
 		<ion-scroll class="height-100">
@@ -27,12 +27,12 @@
 					<img ng-if="item.mobiconnector_avatar" class="margin-auto" ng-src="{{item.mobiconnector_avatar}}" />
 				</i> <span ng-bind-html="item.name"></span>
 			</a>
-			<a menu-close class="item item-icon-{{menuDirection}}" ui-sref="app.photo" ng-class="{'selected':now=='photo'}">
+			<!--<a menu-close class="item item-icon-{{menuDirection}}" ui-sref="app.photo" ng-class="{'selected':now=='photo'}">
 				<i class="icon icon-photo"></i> {{'photos' | translate}}
 			</a>
 			<a menu-close class="item item-icon-{{menuDirection}}" ui-sref="app.video" ng-class="{'selected':now=='video'}">
 				<i class="icon icon-video"></i> {{'videos' | translate}}
-			</a>
+			</a>-->
 		  </ul>
 		 </ion-scroll>
 		 <ul class="list menu-child" ng-show="categoryNowChild.length >0">
