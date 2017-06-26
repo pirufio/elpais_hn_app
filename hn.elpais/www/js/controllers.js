@@ -214,7 +214,7 @@ angular.module('starter.controllers', [])
 			}
 		}
 	});
-	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
+	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts + '?_embed')
 	.then(function(response){
         $scope.hideLoading();
 		$scope.loadDetail = true;
@@ -233,7 +233,18 @@ angular.module('starter.controllers', [])
 				else iframe[i].src += "?enablejsapi=1";
 			}
 		}
-		response.data.content.rendered = tmp.innerHTML;
+
+        var regex =/\[(.*?)images=\”(.*?)\″\scarousel_start(.*?)\]/;
+		/*var match = regex.exec(tmp.innerHTML);
+		var imgList =[];
+		if(match.length>1){
+			imgList = match[2].split(',');
+		}
+		console.log(response.data.content.rendered,imgList, response.data);*/
+        tmp.innerHTML = tmp.innerHTML.replace(regex, "");
+        response.data.content.rendered = tmp.innerHTML;
+
+
 		$scope.data = response.data;
 		$scope.data.time = new Date($scope.data.date).getTime();
 		$scope.load = function(){
