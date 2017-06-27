@@ -214,7 +214,7 @@ angular.module('starter.controllers', [])
 			}
 		}
 	});
-	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts + '?_embed')
+	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
 	.then(function(response){
         $scope.hideLoading();
 		$scope.loadDetail = true;
@@ -233,18 +233,7 @@ angular.module('starter.controllers', [])
 				else iframe[i].src += "?enablejsapi=1";
 			}
 		}
-
-        var regex =/\[(.*?)images=\”(.*?)\″\scarousel_start(.*?)\]/;
-		/*var match = regex.exec(tmp.innerHTML);
-		var imgList =[];
-		if(match.length>1){
-			imgList = match[2].split(',');
-		}
-		console.log(response.data.content.rendered,imgList, response.data);*/
-        tmp.innerHTML = tmp.innerHTML.replace(regex, "");
-        response.data.content.rendered = tmp.innerHTML;
-
-
+		response.data.content.rendered = tmp.innerHTML;
 		$scope.data = response.data;
 		$scope.data.time = new Date($scope.data.date).getTime();
 		$scope.load = function(){
@@ -265,6 +254,10 @@ angular.module('starter.controllers', [])
 		//$http.get(wordpress_url+'/wp-json/mobiconnector/post/counter_view?post_id='+$scope.posts)
 		//.then(function(){ $scope.hideLoading(); });
 	});
+	$scope.trustSrc = function (src) {
+	    return $sce.trustAsResourceUrl(src);
+	};
+
 	$scope.onDrag = function(e){
 		switch(e.gesture.direction){
 			case "left":
@@ -324,11 +317,11 @@ angular.module('starter.controllers', [])
 		if($scope.bookmarked){
 			delete $localStorage.bookmark[$scope.posts];
 			$scope.bookmarked = false;
-			window.plugins.toast.showShortBottom('Remove from Bookmark');
+			window.plugins.toast.showShortBottom('Eliminar de mis notas');
 		} else {
 			$localStorage.bookmark[$scope.posts] = true;
 			$scope.bookmarked = true;
-			window.plugins.toast.showShortBottom('Bookmark success');
+			window.plugins.toast.showShortBottom('Nota guardada');
 		}
 	};
 })
@@ -417,11 +410,11 @@ angular.module('starter.controllers', [])
 		if($scope.bookmarked){
 			delete $localStorage.bookmark[$scope.posts];
 			$scope.bookmarked = false;
-			window.plugins.toast.showShortBottom('Remove from Bookmark');
+			window.plugins.toast.showShortBottom('Eliminar de mis notas');
 		} else {
 			$localStorage.bookmark[$scope.posts] = true;
 			$scope.bookmarked = true;
-			window.plugins.toast.showShortBottom('Bookmark success');
+			window.plugins.toast.showShortBottom('Nota guardada');
 		}
 	};
 })
@@ -802,8 +795,8 @@ angular.module('starter.controllers', [])
 		}
 	};
 })
-.controller('SearchCtrl', function($scope, $http, $ionicScrollDelegate){
-	$scope.data = {};
+.controller('SearchCtrl', function ($scope, $http, $ionicScrollDelegate, $sce) {
+    $scope.data = {};
 	$scope.load = function(){
 		$http.get(wordpress_url+'/wp-json/wp/v2/posts?search='+$scope.data.keyword,{
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
@@ -828,4 +821,5 @@ angular.module('starter.controllers', [])
 		$scope.isSearch = true;
 		$ionicScrollDelegate.scrollBottom();
 	};
+
 })

@@ -10,8 +10,9 @@
 	<div class="row" style="margin-bottom:30px;">
 		<div class="col">
 			<b class="title-briefs line-height" ng-bind-html="data.title.rendered"></b>
-			<p class="info-news" style="margin-top:5px;">{{data.mobiconnector_author_name}}, <a href="/#/app/category/{{data.categories[0].cat_ID}}" class="info"><b>{{data.categories[0].cat_name}}</b></a>, {{data.time | timeAgo}}</p>
-			<detail class="briefs line-height-add" ng-class="settings.text" content="data.content.rendered"></detail>
+			<p class="info-news" style="margin-top:5px;">{{data.mobiconnector_author_name}}, <a ng-click="openCategory(data.categories[0].cat_ID)" class="info"><b>{{data.categories[0].cat_name}}</b></a>, {{data.time | timeAgo}}</p>
+            <iframe class="video_body" width="100%" height="350px" ng-src="{{trustSrc(data.y_url)}}" frameborder="0" allowfullscreen="" ng-if="data.y_url" ></iframe> 
+            <detail class="briefs line-height-add" ng-class="settings.text" content="data.content.rendered"></detail>
 		</div>
 	</div>
 	<!--center style="color:#191919;">

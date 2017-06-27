@@ -121,7 +121,7 @@ label.item.item-input.item-floating-label > .input-login:focus{
 .signup-now{
 	background:#b9b9b9;color:#fff;font-family:Helvetica Medium;font-size:14px;
 }
-.text{font-family:Helvetica;font-style:normal;color:#191919;text-align:justify;}
+.text{font-family:Helvetica;font-style:Regular;color:#191919;text-align:justify;}
 
 .tabs-bookmark .tab-nav{
 	display:block;

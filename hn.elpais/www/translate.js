@@ -23,7 +23,7 @@ angular.module('starter.translate', ['pascalprecht.translate'])
 	    disconnected: "Sin conexión",
 	    photos: "Fotos",
 	    videos: "Videos",
-	    latest: "ULTIMO",
+	    latest: "HOME",
 	    topnew: "MAS LEIDAS",
 	    video: "VIDEOS",
 	    trending: "TENDENCIAS",
