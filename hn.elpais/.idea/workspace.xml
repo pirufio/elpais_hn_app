@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10bb32ab-1e82-4eb8-a14a-edd7fdc0ba50" name="Default" comment="cambios mauricio">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/logowhite.jpg" />
+    <list default="true" id="10bb32ab-1e82-4eb8-a14a-edd7fdc0ba50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elpais.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elpais.csr" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/hn.elpais.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/dailynews.css" afterPath="$PROJECT_DIR$/www/css/dailynews.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/home.css" afterPath="$PROJECT_DIR$/www/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/menu.css" afterPath="$PROJECT_DIR$/www/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/rtl.css" afterPath="$PROJECT_DIR$/www/css/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/search.css" afterPath="$PROJECT_DIR$/www/css/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/settings.css" afterPath="$PROJECT_DIR$/www/css/settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style-photo.css" afterPath="$PROJECT_DIR$/www/css/style-photo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/vspfonts/vspfonts.css" afterPath="$PROJECT_DIR$/www/css/vspfonts/vspfonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/admob.js" afterPath="$PROJECT_DIR$/www/js/admob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/Thumbs.db" afterPath="$PROJECT_DIR$/resources/android/icon/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/category/index.html" afterPath="$PROJECT_DIR$/www/templates/category/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/dailynews/comment.html" afterPath="$PROJECT_DIR$/www/templates/dailynews/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/dailynews/menu.html" afterPath="$PROJECT_DIR$/www/templates/dailynews/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/dailynews/news.html" afterPath="$PROJECT_DIR$/www/templates/dailynews/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/home.html" afterPath="$PROJECT_DIR$/www/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menu.html" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/on_tabs/briefs.html" afterPath="$PROJECT_DIR$/www/templates/on_tabs/briefs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/on_tabs/latest.html" afterPath="$PROJECT_DIR$/www/templates/on_tabs/latest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/on_tabs/top_news.html" afterPath="$PROJECT_DIR$/www/templates/on_tabs/top_news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/on_tabs/trending.html" afterPath="$PROJECT_DIR$/www/templates/on_tabs/trending.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/on_tabs/video.html" afterPath="$PROJECT_DIR$/www/templates/on_tabs/video.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/photo/detail.html" afterPath="$PROJECT_DIR$/www/templates/photo/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/photo/photo.html" afterPath="$PROJECT_DIR$/www/templates/photo/photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/popup/text.html" afterPath="$PROJECT_DIR$/www/templates/popup/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/popup/theme.html" afterPath="$PROJECT_DIR$/www/templates/popup/theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/search.html" afterPath="$PROJECT_DIR$/www/templates/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/about.html" afterPath="$PROJECT_DIR$/www/templates/setting/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/bookmark.html" afterPath="$PROJECT_DIR$/www/templates/setting/bookmark.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/forgot.html" afterPath="$PROJECT_DIR$/www/templates/setting/forgot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/login.html" afterPath="$PROJECT_DIR$/www/templates/setting/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/noti.html" afterPath="$PROJECT_DIR$/www/templates/setting/noti.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/policy.html" afterPath="$PROJECT_DIR$/www/templates/setting/policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/settings.html" afterPath="$PROJECT_DIR$/www/templates/setting/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/signup.html" afterPath="$PROJECT_DIR$/www/templates/setting/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/setting/terms.html" afterPath="$PROJECT_DIR$/www/templates/setting/terms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/video/video.html" afterPath="$PROJECT_DIR$/www/templates/video/video.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,16 +37,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="121" column="30" lean-forward="false" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+              <folding>
+                <element signature="e#150#2343#0" expanded="false" />
+                <element signature="e#4293#5187#0" expanded="false" />
+                <element signature="e#5262#6083#0" expanded="false" />
+                <element signature="e#6244#10645#0" expanded="false" />
+                <element signature="e#6619#6874#0" expanded="false" />
+                <element signature="e#10717#11613#0" expanded="false" />
+                <element signature="e#11747#13892#0" expanded="false" />
+                <element signature="e#14009#15853#0" expanded="false" />
+                <element signature="e#15948#16972#0" expanded="false" />
+                <element signature="e#17093#21547#0" expanded="false" />
+                <element signature="e#21655#22517#0" expanded="false" />
+                <element signature="e#22627#23871#0" expanded="false" />
+                <element signature="e#23930#24728#0" expanded="false" />
+                <element signature="e#24787#26633#0" expanded="false" />
+                <element signature="e#26714#27504#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="-1317">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="n#description#0;n#widget#0;n#!!top" expanded="false" />
-                <element signature="n#author#0;n#widget#0;n#!!top" expanded="false" />
-                <element signature="n#feature#0;n#widget#0;n#!!top" expanded="false" />
+                <element signature="e#322#326#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="77">
+                <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="30" selection-end-column="36" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,37 +93,17 @@
         <entry file="file://$PROJECT_DIR$/www/settings.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/settings.css">
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/dailynews/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="123" column="45" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="252" column="45" lean-forward="false" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="351">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -137,12 +122,16 @@
       <find>title-new</find>
       <find>.title-news</find>
       <find>.info</find>
+      <find>post_views</find>
     </findStrings>
     <replaceStrings>
       <replace>Cargando...</replace>
       <replace>url('fonts/ITCF</replace>
       <replace>&quot;Playfair Display&quot;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\Programacion\clientes\web honduras\codigo\elpais_hn_app\hn.elpais\www</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -150,14 +139,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/translate.js" />
         <option value="$PROJECT_DIR$/www/templates/dailynews/news.html" />
         <option value="$PROJECT_DIR$/www/css/dailynews.css" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/settings.js" />
         <option value="$PROJECT_DIR$/www/css/settings.css" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/templates/photo/detail.html" />
+        <option value="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/app.js" />
+        <option value="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -202,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,23 +209,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hn.elpais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hn.elpais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +220,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Programacion/clientes/web honduras/codigo/elpais_hn_app/hn.elpais/www/css/style.css" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;null&#9;null&#10;det&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -329,7 +308,9 @@
       <workItem from="1498326492837" duration="12751000" />
       <workItem from="1498342386182" duration="2005000" />
       <workItem from="1498347211725" duration="17000" />
-      <workItem from="1498510096410" duration="1863000" />
+      <workItem from="1498510096410" duration="9077000" />
+      <workItem from="1498603490643" duration="1573000" />
+      <workItem from="1498847215381" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="retoques de iconos estilos, arreglos varios">
       <created>1498340019860</created>
@@ -359,11 +340,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498511073162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cambios mauricio">
+      <created>1498512105954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498512105954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="galerias no mostrar carrusel wp">
+      <created>1498521228676</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1498521228676</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17580000" />
+    <option name="totallyTimeSpent" value="31034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,22 +374,22 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27604726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19011815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4752941" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66117644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4752941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4752941" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -410,15 +405,96 @@
     <MESSAGE value="habilitar notificaciones con onesignal" />
     <MESSAGE value="tamaño de texto configurable" />
     <MESSAGE value="cambios mauricio" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios mauricio" />
+    <MESSAGE value="galerias no mostrar carrusel wp" />
+    <option name="LAST_COMMIT_MESSAGE" value="galerias no mostrar carrusel wp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#2343#0" expanded="false" />
+            <element signature="e#4293#5187#0" expanded="false" />
+            <element signature="e#5262#6083#0" expanded="false" />
+            <element signature="e#6244#10645#0" expanded="false" />
+            <element signature="e#6619#6874#0" expanded="false" />
+            <element signature="e#10717#11613#0" expanded="false" />
+            <element signature="e#11747#13892#0" expanded="false" />
+            <element signature="e#14009#15853#0" expanded="false" />
+            <element signature="e#15948#16972#0" expanded="false" />
+            <element signature="e#17093#21547#0" expanded="false" />
+            <element signature="e#21655#22517#0" expanded="false" />
+            <element signature="e#22627#23871#0" expanded="false" />
+            <element signature="e#23930#24728#0" expanded="false" />
+            <element signature="e#24787#26633#0" expanded="false" />
+            <element signature="e#26714#27504#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/dailynews/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#2343#0" expanded="false" />
+            <element signature="e#4293#5187#0" expanded="false" />
+            <element signature="e#5262#6083#0" expanded="false" />
+            <element signature="e#6244#10645#0" expanded="false" />
+            <element signature="e#6619#6874#0" expanded="false" />
+            <element signature="e#10717#11613#0" expanded="false" />
+            <element signature="e#11747#13892#0" expanded="false" />
+            <element signature="e#14009#15853#0" expanded="false" />
+            <element signature="e#15948#16972#0" expanded="false" />
+            <element signature="e#17093#21547#0" expanded="false" />
+            <element signature="e#21655#22517#0" expanded="false" />
+            <element signature="e#22627#23871#0" expanded="false" />
+            <element signature="e#23930#24728#0" expanded="false" />
+            <element signature="e#24787#26633#0" expanded="false" />
+            <element signature="e#26714#27504#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/dailynews/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
@@ -553,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/dailynews/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/fonts/ITCFranklinGothicStd-Book.ttf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -598,27 +660,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="137" column="2" lean-forward="true" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/templates/setting/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="n#description#0;n#widget#0;n#!!top" expanded="false" />
-            <element signature="n#author#0;n#widget#0;n#!!top" expanded="false" />
-            <element signature="n#feature#0;n#widget#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/settings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="123" column="45" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6804">
+          <caret line="252" column="45" lean-forward="false" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -630,10 +694,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/setting/about.html">
+    <entry file="file://$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="471" column="19441" lean-forward="false" selection-start-line="471" selection-start-column="19441" selection-end-line="471" selection-end-column="19441" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="328" column="11" lean-forward="false" selection-start-line="328" selection-start-column="11" selection-end-line="328" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="236" column="8" lean-forward="false" selection-start-line="236" selection-start-column="8" selection-end-line="236" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5842">
+          <caret line="113" column="11" lean-forward="false" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/photo/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/dailynews/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -641,24 +741,61 @@
     <entry file="file://$PROJECT_DIR$/www/settings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/settings.css">
+    <entry file="file://$PROJECT_DIR$/www/translate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="123" column="45" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="252" column="45" lean-forward="false" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="121" column="30" lean-forward="false" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+          <folding>
+            <element signature="e#150#2343#0" expanded="false" />
+            <element signature="e#4293#5187#0" expanded="false" />
+            <element signature="e#5262#6083#0" expanded="false" />
+            <element signature="e#6244#10645#0" expanded="false" />
+            <element signature="e#6619#6874#0" expanded="false" />
+            <element signature="e#10717#11613#0" expanded="false" />
+            <element signature="e#11747#13892#0" expanded="false" />
+            <element signature="e#14009#15853#0" expanded="false" />
+            <element signature="e#15948#16972#0" expanded="false" />
+            <element signature="e#17093#21547#0" expanded="false" />
+            <element signature="e#21655#22517#0" expanded="false" />
+            <element signature="e#22627#23871#0" expanded="false" />
+            <element signature="e#23930#24728#0" expanded="false" />
+            <element signature="e#24787#26633#0" expanded="false" />
+            <element signature="e#26714#27504#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1317">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="n#description#0;n#widget#0;n#!!top" expanded="false" />
+            <element signature="e#322#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="77">
+            <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="30" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@
         El País - elpais.hn
     </description>
     <author email="info@elpais.hn" href="http://www.elpais.hn/">
-      TaydoTech
+      &gt;El Pais
     </author>
     <content src="index.html" />
     <access origin="*" />

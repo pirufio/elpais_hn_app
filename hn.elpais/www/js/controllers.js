@@ -107,7 +107,7 @@ angular.module('starter.controllers', [])
 	$scope.topnews = [];
 	$scope.page = 1;
 	$scope.load = function(isRefreshing){
-		$http.get(wordpress_url+'/wp-json/wp/v2/posts?filter[orderby]=post_views&filter[order]=desc' ,{
+		$http.get(wordpress_url+'/wp-json/wp/v2/posts?filter[meta_key]=wp_post_views_count&filter[orderby]=meta_value_num', {
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
 		}).then(function(response){
 			if(isRefreshing) {
