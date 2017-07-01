@@ -6,7 +6,7 @@
 	<button ng-click="openPopover($event)" class="back-button-news bar-button icon-menu"></button>
 </ion-nav-buttons>
 <ion-content ng-show="data.time" class="news-content" on-drag="onDrag($event)">
-	<img ng-if="data.format == 'standard' && data.mobiconnector_feature_image.source_url" ng-src="{{data.mobiconnector_feature_image.source_url}}" class="img">
+	<img ng-if="data.desactivar_foto_destacada!==1 && data.format == 'standard' && data.mobiconnector_feature_image.source_url" ng-src="{{data.mobiconnector_feature_image.source_url}}" class="img">
 	<div class="row" style="margin-bottom:30px;">
 		<div class="col">
 			<b class="title-briefs line-height" ng-bind-html="data.title.rendered"></b>
