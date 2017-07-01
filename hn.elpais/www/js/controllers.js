@@ -198,7 +198,7 @@ angular.module('starter.controllers', [])
 		$scope.load(true);
 	};
 })
-.controller('DetailCtrl', function($scope, $http, $sce, $state, $stateParams, $ionicPopover, $localStorage, $ionicPopup, IonicClosePopupService, $ionicHistory){
+.controller('DetailCtrl', function($scope, $http, $sce, $state, $stateParams, $ionicPopover, $localStorage, $ionicPopup, IonicClosePopupService, $ionicHistory, broadcast){
 	if(angular.isUndefined($localStorage.bookmark)) $localStorage.bookmark = {};
 	$scope.$sce = $sce;
 	$scope.posts = Number($stateParams.id);
@@ -206,14 +206,15 @@ angular.module('starter.controllers', [])
 	$scope.page = 1;
 	if(angular.isDefined($localStorage.bookmark[$scope.posts])) $scope.bookmarked = true;
 	$scope.showLoading("Cargando...");
-	$scope.$on('$stateChangeStart', function(event, toState, toParams){
-		var iframe = document.querySelectorAll('iframe');
-		for(var i=0; i < iframe.length; i++){
-			if(iframe[i].src.indexOf("youtube.com") != -1){
-				iframe[i].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-			}
-		}
-	});
+
+	//stop the video on application onPause sate (so don't run on backgound)
+    $scope.$on(broadcast.events.onPause, function (event) {
+        var iframe = document.getElementsByTagName("iframe");
+        for(var i=0; i < iframe.length; i++){
+            iframe[i].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+    });
+
 	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
 	.then(function(response){
         $scope.hideLoading();

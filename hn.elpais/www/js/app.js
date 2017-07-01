@@ -337,3 +337,24 @@ angular.module('starter', ['ionic', 'starter.services', 'starter.controllers', '
       }
     }
 })
+.factory('broadcast', function ($rootScope, $document) {
+        var _events = {
+            onPause: 'onPause',
+            onResume: 'onResume'
+        };
+
+        $document.bind('resume', function () {
+            _publish(_events.onResume, null);
+        });
+
+        $document.bind('pause', function () {
+            _publish(_events.onPause, null);
+        });
+
+        function _publish(eventName, data) {
+            $rootScope.$broadcast(eventName, data)
+        }
+        return {
+            events: _events
+        }
+})
