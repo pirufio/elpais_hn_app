@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -19,10 +19,13 @@
     <script src="js/ngStorage.js"></script>
     <script src="js/ionic-close-popup.js"></script>
     <script src="js/angular-base64.js"></script>
+      <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+
   </head>
-  <body ng-app="starter" dir="{{app_direction}}">
-	<link ng-if="app_direction" href="css/rtl.css" rel="stylesheet">
+<body ng-app="starter" dir="{{app_direction}}">
+    <link ng-if="app_direction" href="css/rtl.css" rel="stylesheet">
     <ion-nav-view></ion-nav-view>
-	<div ng-show="isOffline" class="warning-offline text-center light">{{'disconnected' | translate}}</div>
-  </body>
+    <div ng-show="isOffline" class="warning-offline text-center light">{{'disconnected' | translate}}</div>
+
+</body>
 </html>

@@ -10,7 +10,7 @@
 				<img ng-src="{{item.mobiconnector_feature_image.mobiconnector_medium}}" class="img" />
 			</div>
 			<div class="col">
-				<a class="title-news"><b ng-bind-html="item.title.rendered"></b></a>
+				<a class="title-news" ><b ng-bind-html="item.title.rendered"></b></a>
 				<div ng-if="!item.mobiconnector_feature_image.mobiconnector_large" class="item item-text-wrap no-padding">
 					<span ng-bind-html="item.content.rendered | firstSentence"></span>...
 				</div>
@@ -25,6 +25,9 @@
 				</div>		
 			</div>
 		</div>
+        <div ng-if="$index==2" align="center" style="margin-top: 10px; margin-bottom: 10px;" class="col news-video relative no-padding" >
+              <div id='div-gpt-ad-1498863396334-0' ></div>
+        </div>
 	</div>
 	<div ng-if="item.format=='video'" class="col news-video relative no-padding" ui-sref="app.news({id:item.id})">
 		<img ng-src="{{item.mobiconnector_feature_image.mobiconnector_large || 'img/no_images.png'}}" class="img float-left" />

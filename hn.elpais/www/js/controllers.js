@@ -70,13 +70,13 @@ angular.module('starter.controllers', [])
 		}
 	);
 })
-.controller('LastestCtrl', function($scope, $http){
+.controller('LastestCtrl', function($scope, $http, $timeout){
 	$scope.latest = [];
 	$scope.page = 1;
 	$scope.load = function(isRefreshing){
 	    $http.get(wordpress_url + '/wp-json/wp/v2/posts?tags=50', {
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
-		}).then(function(response){
+	    }).then(function (response) {
 			if(isRefreshing) {
 				$scope.latest = [];
 				$scope.over = false;
@@ -91,10 +91,13 @@ angular.module('starter.controllers', [])
 				$scope.latest.push(item);
 			});
 			$scope.$broadcast('scroll.infiniteScrollComplete');
-			$scope.page = $scope.page +1;
-		});
+			$scope.page = $scope.page + 1;
+			$timeout(function () {
+			    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1498863396334-0'); });
+			}, 500);
+	    });
 	};
-	$scope.doRefresh = function(){
+	$scope.doRefresh = function () {
 		$scope.$broadcast('scroll.refreshComplete');
 		$scope.page = 1;
 		$scope.over = true;
@@ -109,7 +112,7 @@ angular.module('starter.controllers', [])
 	$scope.load = function(isRefreshing){
 		$http.get(wordpress_url+'/wp-json/wp/v2/posts?filter[meta_key]=wp_post_views_count&filter[orderby]=meta_value_num', {
 			params:{"page":$scope.page,"per_page":wordpress_per_page}
-		}).then(function(response){
+		}).then(function (response) {
 			if(isRefreshing) {
 				$scope.topnews = [];
 				$scope.over = false;
@@ -198,7 +201,7 @@ angular.module('starter.controllers', [])
 		$scope.load(true);
 	};
 })
-.controller('DetailCtrl', function($scope, $http, $sce, $state, $stateParams, $ionicPopover, $localStorage, $ionicPopup, IonicClosePopupService, $ionicHistory, broadcast){
+.controller('DetailCtrl', function($scope, $http, $sce, $state, $stateParams, $ionicPopover, $localStorage, $ionicPopup, IonicClosePopupService, $ionicHistory, broadcast, $timeout){
 	if(angular.isUndefined($localStorage.bookmark)) $localStorage.bookmark = {};
 	$scope.$sce = $sce;
 	$scope.posts = Number($stateParams.id);
@@ -237,7 +240,11 @@ angular.module('starter.controllers', [])
 		response.data.content.rendered = tmp.innerHTML;
 		$scope.data = response.data;
 		$scope.data.time = new Date($scope.data.date).getTime();
-		$scope.load = function(){
+		$timeout(function () {
+		    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1498863396334-0-nota'); });
+		}, 500);
+
+		$scope.load = function () {
 			$http.get(wordpress_url+'/wp-json/wp/v2/posts?categories='+$scope.data.categories[0].cat_ID ,{
 				params:{"exclude":$scope.posts,"page":$scope.page,"per_page":4}
 			}).then(function(response){
@@ -252,6 +259,7 @@ angular.module('starter.controllers', [])
 				$scope.page = $scope.page +1;
 			});
 		};
+
 		//$http.get(wordpress_url+'/wp-json/mobiconnector/post/counter_view?post_id='+$scope.posts)
 		//.then(function(){ $scope.hideLoading(); });
 	});
@@ -477,7 +485,7 @@ angular.module('starter.controllers', [])
 		} else $state.go('app.login');
 	};
 })
-.controller('CategoryCtrl', function($scope, $http, $sce, $stateParams, $ionicScrollDelegate){
+.controller('CategoryCtrl', function($scope, $http, $sce, $stateParams, $ionicScrollDelegate,$timeout){
 	$scope.$sce = $sce;
 	$scope.category = [];
 	$scope.page = 1;
@@ -495,7 +503,11 @@ angular.module('starter.controllers', [])
 				$scope.category.push(item);
 			});
 			$scope.$broadcast('scroll.infiniteScrollComplete');
-			$scope.page = $scope.page +1;
+			$scope.page = $scope.page + 1;
+			$timeout(function () {
+			    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1498863396334-0-seccion'); });
+			}, 500);
+
 		});
 	};
 	$scope.doRefresh = function(){

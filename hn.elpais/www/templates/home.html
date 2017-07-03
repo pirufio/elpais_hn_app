@@ -11,10 +11,10 @@
 	<ion-tab title="{{'latest' | translate}}">
 		<ion-pane ng-controller="LastestCtrl">
 			<ion-content class="home-content">
-				<ion-refresher on-refresh="doRefresh()" spinner="none" pulling-icon="ion-refresh"></ion-refresher>
-				<div ng-include="'templates/on_tabs/latest.html'"></div>
-				<ion-infinite-scroll ng-if="!over" on-infinite="load()" distance="1%"></ion-infinite-scroll>
-			</ion-content>
+				<ion-refresher on-refresh="doRefresh();" spinner="none" pulling-icon="ion-refresh"></ion-refresher>
+                <div ng-include="'templates/on_tabs/latest.html'"></div>
+                <ion-infinite-scroll ng-if="!over" on-infinite="load()" distance="1%"></ion-infinite-scroll>
+            </ion-content>
 		</ion-pane>
 	</ion-tab>
 	<ion-tab title="{{'topnew' | translate}}">

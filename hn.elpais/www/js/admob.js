@@ -1,16 +1,19 @@
-var admobid = {}
-if (/(android)/i.test(navigator.userAgent)) {
-  admobid = {
-    banner: 'ca-app-pub-4468518752177103/9253504274',
-    interstitial: 'ca-app-pub-4468518752177103/9982697476',
-  }
-} else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {  // for ios
-  admobid = {
-    banner: 'ca-app-pub-4468518752177103/1730237476',
-    interstitial: 'ca-app-pub-4468518752177103/3936163872',
-  }
-}
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
 
+googletag.cmd.push(function () {
+    googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0').addService(googletag.pubads());
+    googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-seccion').addService(googletag.pubads());
+    googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-nota').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+
+
+//document.addEventListener('deviceready', function() {
+//    console.log('Hola1');
+//    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1498863396334-0'); });
+//});
 //document.addEventListener('deviceready', function() {
   //admob.banner.config({
   //  id: admobid.banner,
