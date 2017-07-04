@@ -3,7 +3,6 @@ googletag.cmd = googletag.cmd || [];
 
 googletag.cmd.push(function () {
     googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0').addService(googletag.pubads());
-    googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-seccion').addService(googletag.pubads());
     googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-nota').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
