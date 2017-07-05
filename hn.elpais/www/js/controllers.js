@@ -19,7 +19,9 @@ angular.module('starter.controllers', [])
 					$scope.loadCategory();
 					angular.forEach(response.data, function(item) {
 					    googletag.cmd.push(function () {
-					        googletag.defineSlot('/46506148/ElPaishn_Movil-728x90-300x250__Home_1', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-seccion-'+item.id).addService(googletag.pubads());
+					        googletag.defineSlot('/46506148/ElPaishn_300x600_Secciones_2', [[300, 250], [728, 90]], 'div-gpt-ad-1498863396334-0-seccion-' + item.id)
+                                .addService(googletag.pubads())
+					            .setCollapseEmptyDiv(true)
 					    });
 					})
 				}
