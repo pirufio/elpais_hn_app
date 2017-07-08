@@ -38,6 +38,13 @@
 	font-style: normal;
 }
 
+@font-face {
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Black'), url('fonts/Gotham Black Regular.woff') format('woff');
+}
+
 body{
 	font-family: "IPlayfair Display", serif;
 	color: #000;
@@ -47,7 +54,7 @@ b.title-briefs{
 	display: block;
 	color: #000;
 	text-decoration: none;
-	font-family: "'Playfair Display", serif;
+	font-family: "Gotham Black","Playfair Display", serif;
 	font-size: 46px;
 	font-weight: bold;
 	line-height: 1.1;
@@ -198,8 +205,8 @@ a{text-decoration:none;}
 .news{background:#fff;border-radius:3px;border-bottom:#ccc solid 2px;}
 .title-news{
 	color:#000;text-decoration:none;
-	font-family:"Playfair Display";
-	font-size: 16px;
+	font-family:"Gotham Black","Playfair Display";
+	font-size: 18px;
 }
 .info{
 	color:#00a85d;

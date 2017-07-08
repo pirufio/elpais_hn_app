@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="hn.elpais" version="1.1.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>El Pais</name>
+<widget id="hn.elpais" version="1.1.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>El Pais.hn</name>
     <description>
-        El País - elpais.hn
+        ELPAIS#HN - elpais.hn
     </description>
     <author email="info@elpais.hn" href="http://www.elpais.hn/">
       &gt;El Pais
