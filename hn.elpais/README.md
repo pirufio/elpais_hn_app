@@ -29,3 +29,8 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
                   - Keystore: 'elpais.jks'
                   - Key Alias: 'el_pais'
                   - Password: ******
+
+## Para compilar ios
+
+                  - user: latribuna@latribuna.hn
+                  - pass: ********
