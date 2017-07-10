@@ -1,6 +1,6 @@
 //For rate and share app
-var android_packageName = "hn.elpais.dailynews";
-var apple_id = "1166773798";
+var android_packageName = "hn.elpais";
+var apple_id = "1257954291";
 //URL site wordpress
 var wordpress_url = "http://www.elpais.hn";
 //Posts per page
