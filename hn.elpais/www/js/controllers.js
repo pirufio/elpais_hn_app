@@ -217,12 +217,15 @@ angular.module('starter.controllers', [])
 	if(angular.isDefined($localStorage.bookmark[$scope.posts])) $scope.bookmarked = true;
 	$scope.showLoading("Cargando...");
 
-	//stop the video on application onPause sate (so don't run on backgound)
-    $scope.$on(broadcast.events.onPause, function (event) {
-        var iframe = document.getElementsByTagName("iframe");
-        for(var i=0; i < iframe.length; i++){
-            iframe[i].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-        }
+	var pauseVideo = function () {
+		var iframe = document.getElementsByTagName("iframe");
+		for(var i=0; i < iframe.length; i++){
+			iframe[i].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+		}
+	};
+	//pause the video on application onPause sate (so don't run on background)
+    $scope.$on(broadcast.events.onPause, function () {
+       pauseVideo();
     });
 
 	$http.get(wordpress_url+'/wp-json/wp/v2/posts/'+$scope.posts)
