@@ -45,7 +45,7 @@ angular.module('starter.translate', ['pascalprecht.translate'])
 	    termsOfUse: "Términos y condiciones",
 	    privacyPolicy: "Política de privacidad",
 	    version: "Version",
-	    versionNumber: "1.1.11",
+	    versionNumber: "1.1.12",
 	    news: "Noticias",
 	    photo: "Fotos",
 	    bookmark: "Notas guardadas",
